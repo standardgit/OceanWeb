@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: prompt;
+}
+
+.main {
+    width: 100vw;
+}
+
+.navbar {
+    margin: 10px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    padding-right: 100px;
+}
+
+.navbar-logo > img {
+    width: 100px;
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-links > a {
+    color: rgba(90, 90, 90, 1);
+    text-decoration: none;
+    padding: 0 20px;
+    font-family: prompt;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+.btn {
+    color: rgba(207, 136, 29, 1);
+    padding: 16px 40px;
+    display: inline-block;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid rgba(207, 136, 29, 1);
+}
+
+.btn:active,
+.btn:hover,
+btn:visited {
+    background-color: rgba(207, 136, 29, 1);
+    color: #fff;
+}
+
+.heading-contents {
+    height: 90vh;
+    background-image: url(/Images/Clean1.png);
+    background-size: cover;
+    position: relative;
+}
+
+.star {
+    position: absolute;
+}
+
+.one {
+    top: 18%;
+    left: 15%;
+}
+
+.two {
+    top: 47%;
+    right: 14%;
+}
+
+.heading-text {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.pos- {
+    position: absolute;
+    top: 22%;
+    left: 25%
+}
+
+.heading-text-small {
+    display: block;
+    font-family: Work Sans;
+    word-spacing: 8px;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.heading-text-main {
+    display: block;
+    font-size: 50px;
+    width: 730px;
+    margin-bottom: 24px;
+}
+
+.book-btn {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background-color: rgba(207, 136, 29, 1);
+    border-radius: 50px;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    text-decoration: none;
+
+}
+
+.heading-intro {
+    position: absolute;
+    display: flex;
+    bottom: 40px;
+    right: 0;
+    background-color: #fff;
+}
+
+.heading-intro > img {
+    height: 150px;
+}
+
+.intro-title {
+    font-size: 12px;
+    width: 300px;
+    padding: 20px 20px;
+}
+
+.intro-title > h1 {
+    padding-bottom: 10px;
+}
+
+.intro-title > a {
+    font-weight: 200;
+    color: rgba(207, 136, 29, 1);
+}
+
+.About {
+    height: 80vh;
+    display: flex;
+    padding: 100px;
+    margin-top: 50px;
+
+}
+
+.About-images {
+    width: 50%;
+    position: relative;
+}
+
+.about-images-first {
+    width: 100%;
+    position: absolute;
+}
+
+.about-images {
+    width: 400px; 
+}
+
+.about-star-one {
+    width: 50px;
+    right: 10px;
+    top: 30px;
+}
+
+.about-star-two {
+    width: 50px;
+    padding: 0 50px 50px 0;
+}
+
+.about-writeup {
+    width: 50%;
+}
+
+.about-writeup-content {
+    position: relative;
+    padding: 40px 0px 20px 60px;
+}
+
+.about-text {
+    text-align: start;
+    width: 450px;
+}
+
+.text-gradient {
+    background-image:linear-gradient(to right, rgba(115, 115, 115, 1), rgba(207, 136, 29, 1));
+    background-clip: text;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.about-text-small {
+    display: block;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-family: Work Sans;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about-text-main {
+    display: block;
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    width: 500px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+.text-width{
+    width: 700px;
+}
+
+.paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(90, 90, 90, 1);
+    width: 500px;
+    line-height: 32px;
+    padding-bottom: 15px;
+}
+
+main {
+    padding: 50px;
+}
+
+.about-outline {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.about-outline-main {
+    display: block;
+    font-size: 20px;
+    font-family: Prompt;
+    font-weight: 600;
+}
+
+.about-outline-small {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(90, 90, 90, 1);
+}
+
+.Services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-heading-text {
+    text-align: center;
+}
+
+.services-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+}
+
+.services-content-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.content-image {
+    width: 90px;
+    padding: 10px 0;
+}
+
+
+.content-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.content-desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(90, 90, 90, 1);
+    width: 260px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.about-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+.about-video-content > img {
+    padding-top: 50px;
+    width: 1000px;
+}
+
+.Pricing {
+    height: 80vh;
+    padding: 100px;
+}
+
+.pricing-table{
+
+}
+
+.pricing-table-content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px 80px;
+    justify-content: space-between;
+    border: 2px solid rgba(238, 238, 238, 1);
+}
+
+.Pricing-title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pricing-contents {
+    display: flex;
+    align-items: center;
+
+}
+
+.pricing-tick {
+    width: 20px;
+    height: 20px;
+}
+
+.pricing-desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 1);
+    align-items: center;
+    padding-top: 5px;
+}
+
+.Pricing-fee {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    width: 500px;
+}
+
+.Testimonials {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.testimonials-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.testimonial-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.testimonial-box > p {
+    width: 370px;
+    color: rgba(90, 90, 90, 1);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.rating-stars {
+    padding-top: 20px;
+}
+
+.FAQs {
+    height: 80vh;
+    display: flex;
+    padding: 100px;
+}
+
+.faq-contents {
+    display: flex;
+    width: 80vw;
+    position: relative;
+}
+.faq-heading {
+    margin-bottom: 40px;
+}
+
+.faqs-content-questions {
+    width: 50%;
+}
+
+.text-width-two {
+    width: 600px;
+}
+
+.faq-list {
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.faq-list-text {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+    justify-content: space-between;
+    border: 1px solid rgba(238, 238, 238, 1);
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+
+.faq-text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.faq-images {
+    width: 50%;
+    position: relative;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: rgba(207, 136, 29, 1);
+}
+
+.cta-text {
+    display: block;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    width: 600px;
+    text-transform: uppercase;
+}
+
+.cta-btn {
+    color: #fff;
+    padding: 16px 40px;
+    display: inline-block;
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+
+.cta-desc {
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(90, 90, 90, 1);
+    align-items: center;
+    padding: 5px 30px;
+}
+
+.socials {
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-logo {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.social-hanndles {
+    display: flex;
+}
+
+.spread {
+    display: flex;
+    align-items: flex-end;
+}
+
+.copyright > h1 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-weight: 400;
+    background-color: black;
+    padding: 40px 100px;
+}
